@@ -5,9 +5,11 @@ It can be used either as a module or from console:
 
 * As a module
   - Import module
+  
     `from format_price import format_price`.
   - Use it
-  `formatted_number = format_price(number_to_format)`.
+  
+    `formatted_number = format_price(number_to_format)`.
 
 * From console
 
