@@ -4,13 +4,14 @@ This script will change your number from something like 10000.00 to more readabl
 It can be used either as a module or from console:
 
 * As a module
-  - Import module 
-  `from format_price import format_price`.
+  - Import module
+    `from format_price import format_price`.
   - Use it
   `formatted_number = format_price(number_to_format)`.
 
 * From console
-  `from format_price import format_price`.
+
+  `python format_price.py number_to_format`
   
 # Project Goals
 The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
