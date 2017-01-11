@@ -17,6 +17,9 @@ class TestFormatPrice(unittest.TestCase):
     def test_invalid_value(self):
         self.assertIsNone(format_price('seven'))
 
+    def test_negative_value(self):
+        self.assertIsNone(format_price(-9))
+
 
 if __name__ == '__main__':
     unittest.main()

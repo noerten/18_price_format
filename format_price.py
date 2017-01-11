@@ -16,12 +16,13 @@ def prettify_price(price):
 
 
 def format_price(price):
-    try:
-        int(price)
-    except ValueError:
-        return None
-    else:
-        return prettify_price(price)
+        try:
+            int(price)
+        except ValueError:
+            return None
+        else:
+            if price >= 0:
+                return prettify_price(price)
 
 if __name__ == '__main__':
     user_price = parse_price().price
